@@ -1,0 +1,22 @@
+{
+    "name": "tucker-eric/laravel-cake-client",
+    "description": "Laravel Client for the Cake Marketing PHP Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Tucker",
+            "email": "tucker.ericm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "tucker-eric/cake-client": "dev-master",
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cake\\": "src/"
+        }
+    }
+}
