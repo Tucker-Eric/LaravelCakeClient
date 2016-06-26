@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "tucker-eric/cake-client": "dev-master",
+        "tucker-eric/cake-client": "@dev",
         "php": ">=5.6",
         "guzzlehttp/guzzle": "~6.0"
     },
